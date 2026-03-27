@@ -124,3 +124,34 @@ http://localhost:8081/q/dev-ui/quarkus-smallrye-health/health
 http://localhost:8081/q/health/
 
 ![alt text](<src/main/resources/images/Screenshot from 2026-03-25 22-11-48.png>)
+
+Public Key: https://raw.githubusercontent.com/eldermoraes/unipds/main/jwt-token/quarkus.jwt.pub
+Private Key: https://raw.githubusercontent.com/eldermoraes/unipds/main/jwt-token/quarkus.jwt.token 
+
+Configure private key: 
+
+'''
+    token=$(curl https://raw.githubusercontent.com/eldermoraes/unipds/main/jwt-token/quarkus.jwt.token -s)
+'''
+
+Verify configuration:
+
+'''
+    echo $token
+'''
+
+For install open telemetry:
+
+'''
+podman run --name=jaeger -d -p 16686:16686 -p 4317:4317 -e COLLECTO_OTLP_ENABLED=true jaegertracing/all-in-one:latest
+'''
+
+or
+
+'''
+docker run --name=jaeger -d -p 16686:16686 -p 4317:4317 -e COLLECTO_OTLP_ENABLED=true jaegertracing/all-in-one:latest
+'''
+
+Access Jaeger UI:
+
+localhost:16686
