@@ -1,7 +1,18 @@
-# UniPDS — Quarkus Backend
+<div align="center">
 
-> **Supersonic. Subatomic. Production-ready.**  
-> A modern Java REST API built with [Quarkus 3](https://quarkus.io/), showcasing enterprise-grade features such as JWT security, fault tolerance, distributed tracing, health checks, and native compilation.
+<h1>⚡ UniPDS Quarkus API</h1>
+
+<p><strong>Uma API RESTful robusta e segura construída com Quarkus 3 · Java 21 · MicroProfile JWT · Fault Tolerance · OpenTelemetry</strong></p>
+
+[![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/projects/jdk/21/)
+[![Quarkus](https://img.shields.io/badge/Quarkus-3.27.2-4695EB?style=for-the-badge&logo=quarkus&logoColor=white)](https://quarkus.io/)
+[![MicroProfile JWT](https://img.shields.io/badge/MicroProfile_JWT-003366?style=for-the-badge&logo=eclipse&logoColor=white)](https://quarkus.io/guides/security-jwt)
+[![H2](https://img.shields.io/badge/H2_Database-004088?style=for-the-badge&logo=h2&logoColor=white)](https://www.h2database.com/)
+[![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)](https://opentelemetry.io/)
+[![Swagger](https://img.shields.io/badge/Swagger_UI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://quarkus.io/guides/openapi-swaggerui)
+[![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
+
+</div>
 
 ---
 
